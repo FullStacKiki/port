@@ -13,7 +13,7 @@ import WordPullUp from "@/components/ui/word-pull-up";
 
 const Introduction = () => {
   return (
-    <div className=' place-self-center mt-40 flex items-center'>
+    <div className=' mx-auto w-1/2 mt-10 flex items-center'>
 
     <div>
       <BlurFade delay={0}>
