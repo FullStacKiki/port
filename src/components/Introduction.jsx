@@ -32,7 +32,7 @@ const Introduction = () => {
       </BlurFade>
     </div>
     <BlurFade delay={1.5}>
-    <IconCloudDemo className="max-[414px]:block sm:w-40 sm:h-40" />
+    <IconCloudDemo className="hidden sm:block sm:w-40 sm:h-40" />
     </BlurFade>
     </div>
 

@@ -16,8 +16,8 @@ function App() {
       <Introduction className="z-99 ml-32 sm:mb-14  sm:mt-10 max-[400px]:mt-10"/>
 
       <BlurFade delay={1.0}>
-        <h1 className='text-center text-3xl font-bold sm:mt-10  max-[400px]:mt-10'>Skills:</h1>
-        <MarqueeDemo className="pt-0 sm:mt-[-20] "/>
+        <h1 className='text-center text-3xl font-bold sm:mt-10  mt-16'>Skills:</h1>
+        <MarqueeDemo className="pt-0  "/>
       </BlurFade>
       
   
