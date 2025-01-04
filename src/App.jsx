@@ -11,16 +11,17 @@ import Skills from './components/Skills';
 function App() {
 
   return (
-    <>
+    <div className='overflow-hidden'>
         <DotPattern height={50} width={50} className="w-full mb-14 h-full opacity-100 -z-50" />
-      <Introduction className="z-99 ml-32 "/>
+      <Introduction className="z-99 ml-32 sm:mb-14  sm:mt-10 max-[400px]:mt-10"/>
+
       <BlurFade delay={1.0}>
-        <h1 className='text-center text-3xl font-bold -mb-24'>Skills:</h1>
-        <MarqueeDemo className="pt-0"/>
+        <h1 className='text-center text-3xl font-bold sm:mt-10  max-[400px]:mt-10'>Skills:</h1>
+        <MarqueeDemo className="pt-0 sm:mt-[-20] "/>
       </BlurFade>
       
   
-    </>
+    </div>
   )
 }
 

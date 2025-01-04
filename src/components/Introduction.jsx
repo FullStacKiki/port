@@ -13,7 +13,7 @@ import WordPullUp from "@/components/ui/word-pull-up";
 
 const Introduction = () => {
   return (
-    <div className=' mx-auto w-1/2 mt-10 flex items-center'>
+    <div className=' mx-auto w-1/2 mt-10 sm:flex items-center justify-center min-[414px]:flex-col'>
 
     <div>
       <BlurFade delay={0}>
@@ -21,7 +21,7 @@ const Introduction = () => {
       </BlurFade>
       
       <BlurFade delay={0.5}>
-      <p className=' mt-5 text-pretty  text-xl'>
+      <p className=' mt-5 text-pretty  text-xl max-[414px]:text-center sm:w-96'>
    A 16 y/o Italian Front-End Developer, proficient in the React ecosystem. <br />
       Currently working independently and building my  own projects.
 
@@ -32,7 +32,7 @@ const Introduction = () => {
       </BlurFade>
     </div>
     <BlurFade delay={1.5}>
-    <IconCloudDemo />
+    <IconCloudDemo className="max-[414px]:block sm:w-40 sm:h-40" />
     </BlurFade>
     </div>
 
